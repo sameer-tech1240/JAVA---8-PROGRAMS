@@ -10,7 +10,7 @@ public class FindSmallestElementInArray {
 
 		int smallValue = Arrays.stream(a).sorted().findFirst().getAsInt();
 
-		System.out.println("Largest element in array : " + smallValue);
+		System.out.println("Smallest element in array : " + smallValue);
 
 		
 	}
