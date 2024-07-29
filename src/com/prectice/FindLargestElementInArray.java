@@ -2,7 +2,7 @@ package com.prectice;
 
 import java.util.Arrays;
 
-public class FindLargestElementInArray {
+public class FindSmallestElementInArray {
 
 	public static void main(String[] args) {
 
