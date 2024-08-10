@@ -2,7 +2,7 @@ package com.prectice;
 
 import java.util.Arrays;
 
-public class FindLargestElementInArray {
+public class FindSmallestElementInArray {
 
 	public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class FindLargestElementInArray {
 
 		int smallValue = Arrays.stream(a).sorted().findFirst().getAsInt();
 
-		System.out.println("Largest element in array : " + smallValue);
+		System.out.println("Smallest element in array : " + smallValue);
 
 		
 	}
